@@ -1,0 +1,149 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+	background-image: url(https://cs8.pikabu.ru/post_img/big/2016/08/24/2/1472003950170325483.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}	
+img{
+	display: block;
+	width: 100%;
+}
+header{
+	display: flex;
+	padding: 20px;
+	justify-content: space-between;
+	align-items: center;
+}
+main{
+	display: flex;
+	padding: 30px;
+}
+.hello{
+	background-color: #fff;
+	height: 40px;
+	text-align: center;
+	text-decoration: none;
+	width: 80px;
+	line-height: 41px;
+	font-weight: bold;
+}
+.info{
+	padding: 40px;
+	background-color:#123a37;
+	text-align: center;
+	font-size: 1.6em;
+	color: #DC143C;
+}
+.about{
+	justify-content: space-between;
+	list-style-type: none;
+	padding-left: 20px;
+}
+.skills{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 100px;
+}
+nav{
+	width: 60%;
+}
+.menu{
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+}
+.menu> li {
+	/*display: inline-block;*/
+/*	 width: 25%;*/
+	 flex-grow: 1;
+}
+/*.menu> li :hover{
+	border-bottom:1px solid black;
+	padding-bottom:10px;
+}*/
+.menu>li> a {
+	display: inline-block;
+	padding-bottom: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.menu>li> a:hover{
+	border-bottom: 1px solid  #123a37 ;
+}
+.info{
+	width: 40%;
+}
+.btn{
+	display: block;
+	width: 268px;
+	height: 58px;
+	border:1px solid #fff;
+	text-align: center;
+	line-height: 59px;
+	text-transform: uppercase;
+	text-decoration:none;
+	color: #808000 ;
+}
+.btn:hover{
+	background-color:#800000;
+	color: #000000 ;
+}
+footer{
+	background-color: rgba(238 130 238 0.7 );
+}
+.footer-title{
+	padding: 30px;
+	text-align: center;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	color: #DC143C;
+}
+.wrap{
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 20px;
+
+}
+.map{
+	width: 40%;
+}
+.form{
+	padding: 0px 20px;
+}
+form{
+display: flex;
+flex-direction: column;
+}
+form > input ,form textarea{
+	margin-bottom: 10px;
+}
+.contact-info{
+	text-align: right;
+}
+.contact-info_item{
+	padding-bottom: 10px;
+	color: #008000;
+}
+.contact-info_item-title{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.contact-info_item-value > a{
+	text-decoration: none;
+	color: #008000;
+}
+.contact-info_item-value > a:hover{
+	color: #5899e0;
+}
