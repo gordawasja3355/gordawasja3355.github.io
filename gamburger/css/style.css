@@ -1,0 +1,154 @@
+.brand{
+	font-size: 22px;
+	position: relative;
+	color: #62afe4;
+}
+.jumbotron{
+	background:url(../img/jumbotron.jpg);
+	text-align: center;
+	padding:50px 0;
+	color: #777;
+	background-size: cover;
+}
+.button{
+	display: block;
+	max-width: 160px;
+	max-height: 25px;
+	line-height: 25px;
+	background: #fa5ba5;
+	border-radius: 40px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px 0;
+	color: #fff;
+	text-decoration: none;
+}
+
+.services{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	color: #979797;
+}
+.blog{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+}
+.post{
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	flex-direction:column; ;
+}
+img{
+	display: block;
+	width: 100%;
+}
+footer{
+	text-align: center;
+	background-color: #38404b;
+	padding: 20px 5px;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 150px;
+    background-color:none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    color: white;
+    text-align: center;
+    height: 40px;
+    font-family: 'Arial';
+    right:0;
+    top: 0;
+}
+
+#check-menu{
+    display: none;
+}
+
+label{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 2;
+    line-height: 40px;
+}
+
+.burger-line{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    width: 35px;
+    height: 2px;
+    background-color: black;
+    transition: .5s all;
+}
+
+.second, .third{
+    top: 18px;
+}
+
+.fourth{
+    top: 28px;
+}
+
+.main-menu{
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    left: 0;
+    transform: translateY(100%);
+    max-height: 0;
+    font-size: 0;
+    overflow: hidden;
+    transition: 0.5s all;
+
+}
+ul>li{
+    list-style: none;
+}
+
+.main-menu a{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(118, 191, 233), 224);
+}
+
+.main-menu a:hover{
+    color:rgb(238, 83, 161);
+}
+
+#check-menu:checked ~ .main-menu{
+    max-height: 500px;
+    font-size: 16px;
+}
+
+#check-menu:checked ~ .first{
+    display: none;
+}
+
+#check-menu:checked ~ .second{
+    transform: rotate(45deg);
+}
+
+#check-menu:checked ~ .third{
+    transform: rotate(-45deg);
+}
+
+#check-menu:checked ~ .fourth{
+    display: none;
+}
