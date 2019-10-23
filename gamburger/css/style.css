@@ -51,6 +51,7 @@ footer{
 	text-align: center;
 	background-color: #38404b;
 	padding: 20px 5px;
+	flex-direction:column;
 }
 .wrapper{
     margin: 0 auto;
