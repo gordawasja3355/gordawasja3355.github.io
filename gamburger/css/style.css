@@ -67,7 +67,9 @@ footer{
     right:0;
     top: 0;
 }
-
+a
+{text-decoration: none;}
+	
 #check-menu{
     display: none;
 }
