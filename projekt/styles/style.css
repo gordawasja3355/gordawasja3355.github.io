@@ -14,6 +14,9 @@ header{
     margin-left: auto;
     margin-right: auto;
 }
+.title{
+    display: flex;
+}
 h2,h1,h5,h6{
     color: #023875
 }
