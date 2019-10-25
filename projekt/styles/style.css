@@ -16,6 +16,10 @@ header{
 }
 .title{
     display: flex;
+    justify-content: space-between;
+}
+.logo{
+
 }
 h2,h1,h5,h6{
     color: #023875
@@ -27,8 +31,7 @@ h2{
     font-size: 30px;
 }
 .phone{
-    text-align: right;
-    margin-left: 600px;
+    justify-content: flex-end;
 }
 h5{
     font-size: 25px;
