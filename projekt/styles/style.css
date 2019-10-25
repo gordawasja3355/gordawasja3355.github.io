@@ -1,0 +1,102 @@
+header{
+   padding-top: 30px;
+}
+.wrap{
+    padding: 0px 0px 0px 50px;
+    height: 50%;
+    width: 100%;
+    background-color: #023875;
+    border-radius: 5%;
+}
+.container{
+    width: 96%;
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2,h1,h5,h6{
+    color: #023875
+}
+h3{
+    padding-top: 30px;
+}
+h2{
+    font-size: 30px;
+}
+.phone{
+    text-align: right;
+    margin-left: 600px;
+}
+h5{
+    font-size: 25px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#breadcrumbs-one{
+ overflow: hidden;
+ width: 100%;
+}
+
+#breadcrumbs-one li{
+ float: left;
+ margin: 0 .5em 0 1em;
+}
+
+#breadcrumbs-one a{
+ background: #ddd;
+ padding: .7em 1em;
+ float: left;
+ text-decoration: none;
+ color: #444;
+ text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+ position: relative;
+}
+
+#breadcrumbs-one a:hover{
+ background: #efc9ab;
+}
+
+#breadcrumbs-one a::before,
+#breadcrumbs-one a::after{
+ content:'';
+ position:absolute;
+ top: 0;
+ bottom: 0;
+ width: 1em;
+ background: #ddd;
+ transform: skew(-10deg); 
+}
+
+#breadcrumbs-one a::before{
+
+ left: -.5em;
+ border-radius: 5px 0 0 5px;
+}
+
+#breadcrumbs-one a:hover::before{
+ background: #efc9ab;
+}
+
+#breadcrumbs-one a::after{
+ right: -.5em; 
+ border-radius: 0 5px 5px 0;
+}
+
+#breadcrumbs-one a:hover::after{
+ background: #efc9ab;
+}
+
+#breadcrumbs-one .current,
+#breadcrumbs-one .current:hover{
+ font-weight: bold;
+ background: none;
+}
+
+#breadcrumbs-one .current::after,
+#breadcrumbs-one .current::before{
+ content: normal;
+}
+
